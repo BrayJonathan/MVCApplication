@@ -10,6 +10,9 @@ namespace MVCApplication.Controllers
     {
         public ActionResult Index()
         {
+            DateTime dt = DateTime.Now;
+            ViewBag.Message = $"Jonathan Bray - {dt.ToShortTimeString()}";
+
             return View();
         }
 
