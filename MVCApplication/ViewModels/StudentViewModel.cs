@@ -11,6 +11,7 @@ namespace MVCApplication.ViewModels.Mappings
         #region "Properties"
         private int _Id;
         private string _Name;
+        private ICollection<ClassRoomViewModel> _ListClassRooms;
         #endregion
 
         #region "Accessor"
@@ -18,6 +19,7 @@ namespace MVCApplication.ViewModels.Mappings
         public int Id { get => _Id; set => _Id = value; }
         [Required, StringLength(50), Display(Name = "Nom")]
         public string Name { get => _Name; set => _Name = value; }
+        public ICollection<ClassRoomViewModel> ListClassRooms { get => _ListClassRooms; set => _ListClassRooms = value; }
         #endregion
 
     }

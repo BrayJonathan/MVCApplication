@@ -24,7 +24,5 @@ namespace MVCApplication.Entities
         public int Id { get => _Id; set => _Id = value; }
         public string Name { get => _Name; set => _Name = value; }
         #endregion
-
-
     }
 }

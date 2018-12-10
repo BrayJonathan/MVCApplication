@@ -132,7 +132,9 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AttendanceController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\StudentController.cs" />
     <Compile Include="Entities\Attendance.cs" />
     <Compile Include="Entities\ClassRoom.cs" />
     <Compile Include="Entities\MVCApplicationContext.cs" />
@@ -189,6 +191,11 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Student\AddStudent.cshtml" />
+    <Content Include="Views\Student\StudentIndex.cshtml" />
+    <Content Include="Views\Attendance\AddStudentAttendance.cshtml" />
+    <Content Include="Views\Attendance\StudentAttendanceIndex.cshtml" />
+    <Content Include="Views\Attendance\EditorTemplates\StudentAttendanceViewModel.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
